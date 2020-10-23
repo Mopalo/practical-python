@@ -8,5 +8,5 @@ howMany = 1
 
 while howMany < 5:
     print("Bounce number:", howMany, "Height:", bounceBack)
-    height = bounceHeight
+    height = bounceBack
     howMany = howMany + 1
