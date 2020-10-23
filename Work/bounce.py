@@ -7,6 +7,6 @@ bounceHeight = 3/5
 
 while howMany < 11:
     bounceBack = height * bounceHeight
-    print("Bounce number:", howMany, "Height:", round(bounceBack, 4)
+    print("Bounce number:", howMany, "Height:", round(bounceBack, 4))
     height = bounceBack
     howMany = howMany + 1
