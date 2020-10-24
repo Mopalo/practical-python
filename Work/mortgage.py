@@ -10,7 +10,7 @@ extra = 1000
 
 while principal > 0 & month <= 12:
     principal = principal * (1+rate/12) - (payment + extra)
-    total_paid = total_paid + payment
+    total_paid = total_paid + (payment + extra)
     month += 1
 
 while principal > 0:
