@@ -20,6 +20,4 @@ while principal > 0:
         total_paid = total_paid + (payment + extra_payment)
         month += 1
 
-
-print('Months taken', month)
-print('Total paid', total_paid)
+print(month, total_paid, principal)
