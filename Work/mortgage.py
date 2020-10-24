@@ -7,7 +7,7 @@ payment = 2684.11
 total_paid = 0.0
 month = 1
 
-while month <= 12
+while month <= 12:
     while principal > 0:
         principal = principal * (1+rate/12) - payment
         total_paid = total_paid + payment
