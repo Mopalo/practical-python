@@ -16,6 +16,8 @@ while principal > 0:
         total_paid = total_paid + payment
         month += 1
         print(month, total_paid, principal)
+    else
+        break
 
 print('Total paid', total_paid)
 print('Months', month)
