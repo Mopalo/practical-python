@@ -20,7 +20,7 @@ while principal > 0:
         principal -= extra_payment
         total_paid += extra_payment
 
-    print(month, round(total_paid, 2))
+    print(month, round(total_paid, 2), principal)
 
 print('Total paid', round(total_paid, 2))
 print('Months', month)
