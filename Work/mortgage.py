@@ -8,7 +8,7 @@ total_paid = 0.0
 month = 0
 extra_payment_start_month = 61
 extra_payment_end_month = 108
-extra_payment = 1000
+extra_payment = 1000.0
 
 while principal > 0:
     month += 1
