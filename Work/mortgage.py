@@ -14,6 +14,8 @@ while principal > 0:
     month += 1
     principal = principal * (1 + rate/12) - payment
     total_paid += payment
+    print(month)
+    print(round(total_paid, 2))
 
-print('Total paid', total_paid)
+print('Total paid', round(total_paid, 2))
 print('Months', month)
